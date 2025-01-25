@@ -50,6 +50,7 @@ a {
   width: 30%;
   height: 30%;
   margin: 20px;
+  
 }
 .name {
   display: flex;
@@ -215,4 +216,40 @@ a {
   .skills, .projects, .Highlight, .contactme {
     flex-direction: column;
   }
+
+  .skills, .projects, .Highlight {
+    grid-template-columns: 1fr;
+  }
+
+  .name {
+    margin: 50px 20px;
+  }
+
+  .portofoiloimage {
+    width: 60%; 
+  }
 }
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navbar a {
+    padding: 15px;
+  }
+
+  .skills, .projects, .Highlight {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .name {
+    margin: 50px 20px;
+  }
+
+  .portofoiloimage {
+    width: 50%; /
+  }
+}
+
