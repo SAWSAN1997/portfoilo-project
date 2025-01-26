@@ -228,10 +228,9 @@ a {
   .portofoiloimage {
     width: 60%; 
   }
-  .serviceimg {
-    width:60% ;
+
   }
-}
+
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   .navbar {
     flex-direction: row;
