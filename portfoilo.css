@@ -75,14 +75,19 @@ a {
   color: #93735e;
   text-align: center;
 }
-.button {
-  display: flex;
-  color: #93735e;
+ button {
+  color: #ffffff;
   text-align: center;
   justify-content: center;
-  background-color: #efe6e2;
+  background-color: #b5a7a1;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  margin-left: 500px;
+  font-weight: 700;
+  
 }
-.button:hover {
+button:hover {
   background-color: #d1c4b8;
 }
 .services {
