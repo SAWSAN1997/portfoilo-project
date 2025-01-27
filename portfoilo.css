@@ -242,7 +242,7 @@ a {
   }
 
   .skills, .projects, .Highlight {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 3fr;
     gap: 15px;
   }
 
@@ -254,4 +254,85 @@ a {
     width: 50%; /
   }
 }
+@media (max-width: 1024px) {
+  .Highlight {
+    grid-template-columns: 1fr 1fr; 
+  }
+
+  .highlightimg {
+    flex-direction: column; 
+  }
+
+  .contactme {
+    flex-direction: column; 
+  }
+
+  .contaxttext {
+    width: 100%; 
+    font-size: 18px; 
+  }
+
+  .contactinfo {
+    width: 100%; 
+  }
+
+  .Highlighttexe {
+    font-size: 24px; 
+  }
+
+  .design {
+    font-size: 18px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .Highlight {
+    grid-template-columns: 1fr; 
+  }
+
+  .highlightimg {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .contactme {
+    flex-direction: column; 
+  }
+
+  .contaxttext {
+    width: 100%; 
+    font-size: 16px; 
+  }
+
+  .contactinfo {
+    width: 100%;
+  }
+
+  .Highlighttexe {
+    font-size: 20px;
+  }
+
+  .design {
+    font-size: 16px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .Highlighttexe {
+    font-size: 18px; 
+  }
+
+  .design {
+    font-size: 14px; 
+  }
+
+  .contaxttext {
+    font-size: 14px; 
+  }
+
+  .highlightimg img {
+    width: 100%; 
+  }
+}
+
 
